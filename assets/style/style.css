@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.umbruch::after {
+    content: '\A';
+    white-space: pre;    
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: "gilda";
+    src: url("../fonts/GildaDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "maven";
+    src: url("../fonts/MavenPro-VariableFont_wght.ttf");
+}
+
+/* Header */
+
+body header {
+    background-color: #333;
+}
+
+.logo {
+    width: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: "gilda";
+    color: white;
+}
+
+.article_header {
+    margin-top: 250px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    text-align: center;
+    background-image: linear-gradient(to top right, #8507e1, #194894, #3dc8d5);
+}
+
+.article_header:hover {
+    background-image: linear-gradient(to top right, #3dc8d5, #194894, #8507e1);
+}
+
+.article_header h1 {
+    font-family: "gilda";
+    font-size: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+.article_header p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-family: "maven";
+    width: 500px;
+}
+
+.nav_header {
+    text-align: right;
+    margin-right: 15px;
+    padding-top: 100px;
+    padding-bottom: 35px;
+}
+
+.nav_header ul li a {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: grey;
+    list-style-type: none;
+}
+
+.nav_header ul li:nth-of-type(4) a {
+    padding-bottom: 45px;
+}
+
+.nav_header a:hover {
+    color: white;
+}
+
+/* Main */
+
+main {
+    background-image: url("../img/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-position: 5% 3%;
+    background-repeat: no-repeat;
+}
+
+.stuff_we {
+    /* text-align: bottom; */
+    /* margin-top: 250px; */
+    padding-top: 250px;
+    margin-bottom: auto;
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+.stuff_we h1 {
+    font-family: "maven";
+    font-size: 60px;
+    padding-bottom: 25px;
+    color: black;
+}
+
+.stuff_we p:nth-of-type(1) {
+    font-size: 15px;
+    font-family: "gilda";
+    width: 420px;
+}
+
+.stuff_we p:nth-of-type(2) {
+    font-size: 15px;
+    font-family: "gilda";
+    width: 700px;
+    padding-top: 25px;
+}
+
+.bild_1 {
+    text-align: center;
+    padding-top: 500px;
+}
+
+.bild_1 img {
+    border-radius: 50px;
+}
+
+.PMU {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+.PMU h1 {
+    font-size: "maven";
+    font-size: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.PMU p {
+    font-size: 18px;
+    font-family: "gilda";
+}
+
+main article:nth-of-type(3) section img {
+    width: 1450px;
+}
+
+main article:nth-of-type(5) section:nth-of-type(2) p {
+    padding-bottom: 50px;
+}
