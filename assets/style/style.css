@@ -5,7 +5,7 @@
 
 .umbruch::after {
     content: '\A';
-    white-space: pre;    
+    white-space: pre;
 }
 
 /* Fonts */
@@ -142,7 +142,7 @@ main {
     text-align: left;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-right: auto;
 }
 
